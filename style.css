@@ -42,7 +42,9 @@
 }
 
 /* offer section */
-
+.offer-section{
+    margin: 130px 0;
+}
 .offer-text{
     text-align: center;
 }
@@ -74,13 +76,14 @@
 }
 /* party section  */
 .midnight-party-section{
-    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Vectorrr.png');
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('./resources/Vectorrr.png');
     background-position: bottom center;
     background-size: cover;
     /* padding: 220px 90px 144px; */
     border-radius: 16px;
     align-items: center ;
     display: flex;
+    
 }
 .party-column h1{
     width: 560px;
@@ -157,6 +160,7 @@
     justify-content: space-around;
     gap: 60px;
     align-items: center;
+    margin: 0 50px;
 }
 .best-offer-section .column h4{
     color: #F00;
@@ -183,13 +187,13 @@
 .best-offer-section .column1 img{
     width: 364.844px;
     height: 364.844px;
-    padding-top: 48px;
+    padding-top: 22px;
     
 }
 .circle{
-    width: 464.844px;
-    height: 464.844px;
-    border: 25px solid red;
+    width: 408.844px;
+    height: 408.844px;
+    border: 10px solid red;
     border-radius: 100%;
 }
 .column1{
