@@ -254,8 +254,36 @@
     font-size: 20px;
     font-weight: 500;
 }
+.holiday-img-area{
+    background: url(resources/Rectangle\ 2.png), url(resources/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom, top right;
+}
+.image{
+    display: flex;
+    margin-top: 60px;
+}
+.image .img1{
+    width: 796.463px;
+    height: 662.07px;
+}
+.image .img2{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24.338px;
+    font-weight: 900;
+    width: 206.841px;
+    height: 206.841px;
+    /* padding-top: 100px; */
+    position: relative;
+    top: 122px;
+    right: 171px;
+    
+}
 /* portfolio section */
-
+.portfolio-section{
+    margin-top: 360px;
+}
 .portfolio-section .portfolio-text h4{
     color: #F00;
     font-family: 'Inter', sans-serif;
