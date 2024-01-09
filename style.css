@@ -145,6 +145,7 @@
     border-radius: 8px;
     color: #FFF;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .info-section button:hover{
     background: rgb(211, 90, 90);
@@ -372,7 +373,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 600;
-
+    cursor: pointer;
 }
 .subscribe-section button:hover{
     background: rgb(211, 90, 90);
@@ -397,7 +398,7 @@
     font-size: 24px;
     font-weight: 500;
 }
-.footer-section .footer-row1 .column2, .footer-row3 .column1,.footer-row3 .column2{
+.footer-section .footer-row1 .column2{
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
@@ -407,9 +408,9 @@
     margin-bottom: 10px;
 }
 .footer-row2{
-    width: 26%;
+    width: 8%;
     margin: 0 auto;
-    
+    display: flex;
    
 }
 .footer-row2 img{
@@ -435,6 +436,18 @@
     height: 24px;
     margin-right: 10px;
 }
-.column2 h4{
+.column1 h4{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.column2 button{
     padding-bottom: 10px;
+    background: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    border: none;
 }
