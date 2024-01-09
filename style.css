@@ -404,6 +404,9 @@
     font-size: 24px;
     font-weight: 500;
 }
+.column2 #phone{
+    margin-bottom: 10px;
+}
 .footer-section .footer-row1 .column1 h4{
     margin-bottom: 10px;
 }
