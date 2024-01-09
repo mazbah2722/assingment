@@ -147,17 +147,11 @@
     color: #FFF;
     text-transform: uppercase;
 }
-/* .info-section #red{
-    color: #F00;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 32px;
-    font-weight: 600;
-} */
+
 /* best offer section */
 .best-offer-section{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     gap: 60px;
     align-items: center;
     margin: 0 50px;
