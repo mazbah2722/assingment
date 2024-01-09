@@ -100,7 +100,7 @@
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 30px;
-    /* width: 560px; */
+    width: 560px;
     width: 697px;
 }
 .party-column button{
@@ -147,6 +147,10 @@
     border-radius: 8px;
     color: #FFF;
     text-transform: uppercase;
+}
+.info-section button:hover{
+    background: rgb(211, 90, 90);
+    transition: 1s;
 }
 
 /* best offer section */
@@ -344,6 +348,10 @@
     font-size: 20px;
     font-weight: 600;
 
+}
+.subscribe-section button:hover{
+    background: rgb(211, 90, 90);
+    transition: 1s;
 }
 /* footer section */
 
